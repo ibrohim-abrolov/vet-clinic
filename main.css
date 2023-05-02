@@ -1,0 +1,241 @@
+@font-face {
+    font-family: "Futura PT";
+    src: url("./fonts/FuturaPT-Medium.woff2");
+}
+
+@font-face {
+    font-family: "Futura PT";
+    src: url("./fonts/FuturaPT-Light.woff2");
+}
+
+@font-face {
+    font-family: "Futura PT";
+    src: url("./fonts/FuturaPT-Book.woff2");
+}
+
+@font-face {
+    font-family: "Futura PT";
+    src: url("./fonts/FuturaPT-Bold.woff2");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: "Futura PT";
+    font-weight: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-image: url("./images/bg.png");
+}
+
+.container {
+    max-width: 1350px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+   /*   Header section   */
+
+.site-header {
+    padding-top: 13px;
+}
+
+    /*  Site-adress Inner  */
+
+.site-header {
+    padding-bottom: 153px;
+}
+
+.site-adress {
+    display: flex;
+    padding-bottom: 13px;
+}
+
+.site-adress__mini {
+    position: relative;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #333;
+    margin-right: 106px;
+}
+
+.site-adress__mini::before {
+    position: absolute;
+    top: 3px;
+    left: -22px;
+    width: 14px;
+    height: 13px;
+    content: "";
+    display: inline-block;
+    background-image: url("./images/small\ house.svg");
+    background-size: contain;
+}
+
+.site-adress__list {
+    display: flex;
+    padding-left: 0;
+    margin: 0;
+    margin-right: 98px;
+    list-style: none;
+}
+
+.site-adress__items {
+    position: relative;
+    margin-right: 22px;
+}
+
+.site-adress__items--active::before {
+    position: absolute;
+    top: 3px;
+    left: -22px;
+    width: 13px;
+    height: 13px;
+    content: "";
+    display: inline-block;
+    background-image: url("./images/call.svg");
+    background-size: contain;
+}
+
+.site-adress__items--middle::before {
+    position: absolute;
+    top: 10px;
+    left: -14px;
+    width: 4px;
+    height: 4px;
+    content: "";
+    display: inline-block;
+    background-image: url("./images/Dot.svg");
+    background-size: contain;
+}
+
+.site-adress__items--last {
+    margin-right: 0;
+}
+
+.site-adress__items--last::before {
+    position: absolute;
+    top: 10px;
+    left: -14px;
+    width: 4px;
+    height: 4px;
+    content: "";
+    display: inline-block;
+    background-image: url("./images/Dot.svg");
+    background-size: contain;
+}
+
+.site-adress__link {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 18px;
+    color: #333;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.site-adress__time-list {
+    display: flex;
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.site-adress__time-items {
+    position: relative;
+}
+
+.site-adress__time-items:first-child {
+    margin-right: 17px;
+}
+
+.site-adress__time-items:first-child::before {
+    position: absolute;
+    top: 10px;
+    left: -22px;
+    width: 11.67px;
+    height: 8.17px;
+    content: "";
+    display: inline-block;
+    background-image: url("./images/schedule\ \(1\).svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.site-adress__time-self {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #333;
+}
+
+   /*  Nav  */
+
+.site-header__wrapper {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    background-color: #fff;
+    border: 1px solid #f3f3f3;
+    padding-top: 18.17px;
+    padding-bottom: 20.57px;
+}
+
+.site-logo {
+    position: absolute;
+    top: -17px;
+    left: 65px;
+    z-index: 2;
+    margin-right: 115.45px;
+}
+
+.nav__list {
+    display: flex;
+    margin: 0;
+    margin-right: 164.49px;
+    padding-left: 0;
+    list-style: none;
+}
+
+.nav__items {
+    position: relative;
+    margin-right: 55px;
+}
+
+.nav__items--initial::before {
+    position: absolute;
+    top: 5px;
+    left: -22px;
+    width: 14.75px;
+    height: 14.75px;
+    content: "";
+    display: inline-block;
+    background-image: url("./images/fish.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav__items--last {
+    margin-right: 0;
+}
+
+.nav__link {
+    line-height: 21px;
+    color: #333333;
+    text-decoration: none;
+}
+
+
+
