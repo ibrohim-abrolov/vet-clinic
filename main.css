@@ -38,6 +38,7 @@ body {
     flex-direction: column;
     margin: 0;
     background-image: url("./images/bg.png");
+    background-color: #e5e5e5;
     overflow-x: hidden;
 }
 
@@ -444,3 +445,313 @@ body {
     margin-left: 170px;
 }
 
+   /*  Cards  */
+
+.card {
+    padding-bottom: 235px;
+}   
+
+.card__main-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 54px;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.card__list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+.card__list::before {
+    position: relative;
+    top: 100px;
+    right: 15px;
+    width: 14px;
+    height: 26px;
+    content: "";
+    display: inline-block;
+    background-image: url("./images/arrow\ \(1\).svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.card__list::after {
+    position: relative;
+    top: 103px;
+    left: 15px;
+    width: 14px;
+    height: 26px;
+    content: "";
+    display: inline-block;
+    background-image: url("./images/arrow\ 2.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.card__items {
+    width: 200px;
+    height: 201px;
+    background-color: #fff;
+    border: 1px solid #f3f3f3;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-bottom: 14px;
+    transition: color 0.5s ease;
+}
+
+.card__items:hover {
+    opacity: 0.8;
+}
+
+.card__items:active {
+    opacity: 0.6;
+}
+
+.card__title {
+    font-size: 18px;
+    line-height: 22px;
+    color: #333;
+    text-align: center;
+    margin-top: 21px;
+    margin-bottom: 0;
+}
+
+.card__items--initial {
+    margin-bottom: 0;
+    padding-top: 30px;
+    padding-right: 32px;
+    padding-bottom: 42px;
+    padding-left: 35px;
+    border-bottom: none;
+}
+
+.card__items--initial::before {
+    position: relative;
+    left: 35px;
+    width: 54px;
+    height: 78px;
+    content: "";
+    display: inline-block;
+    background-image: url("./images/doctor\ 1\ \(1\).svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.card__items--second {
+    padding-top: 30px;
+    padding-right: 32px;
+    padding-bottom: 28px;
+    padding-left: 35px;
+}
+
+.card__items--second::before {
+    position: relative;
+    left: 23px;
+    width: 61px;
+    height: 77px;
+    content: "";
+    display: inline-block;
+    background-image: url("./images/lady.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.card__items--third {
+    padding-top: 30px;
+    padding-right: 32px;
+    padding-bottom: 28px;
+    padding-left: 35px;
+}
+
+.card__items--third::before {
+    position: relative;
+    left: 23px;
+    width: 72px;
+    height: 77px;
+    content: "";
+    display: inline-block;
+    background-image: url("./images/dog\ therapy.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.card__items--fourth {
+    padding-top: 30px;
+    padding-right: 32px;
+    padding-left: 35px;
+    padding-bottom: 39px;
+}
+
+.card__items--fourth::before {
+    position: relative;
+    left: 14px;
+    width: 75px;
+    height: 76px;
+    content: "";
+    display: inline-block;
+    background-image: url("./images/sick\ dog.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.card__items--fifth {
+    padding-top: 30px;
+    padding-right: 32px;
+    padding-left: 35px;
+    padding-bottom: 28px;
+}
+
+.card__items--fifth::before {
+    position: relative;
+    left: 16px;
+    width: 78px;
+    height: 78px;
+    content: "";
+    display: inline-block;
+    background-image: url("./images/veterinary.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.card__items--last {
+    margin-right: 0;
+    padding-top: 31px;
+    padding-right: 32px;
+    padding-left: 35px;
+    padding-bottom: 39px;
+}
+
+.card__items--last::before {
+    position: relative;
+    left: 25px;
+    width: 76px;
+    height: 76px;
+    content: "";
+    display: inline-block;
+    background-image: url("./images/dogs.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+  /*  Card inner  */
+
+.card__inner {
+    display: flex;
+    background-color: #fff;
+    border-radius: 0px 5px 5px 5px;
+    padding-top: 41px;
+    padding-right: 0px;
+    padding-bottom: 41px;
+    padding-left: 35px;
+}
+
+.card__img {
+    margin-right: 67px;
+}
+
+.card__inner-wrapper {
+    width: 492px;
+    padding-top: 32px;
+    padding-bottom: 31px;
+}
+
+.card__inner-title {
+    font-size: 36px;
+    line-height: 20px;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 18px;
+}
+
+.card__text {
+    font-weight: normal;
+    line-height: 20px;
+    color: #949494;
+    margin-top: 0;
+}
+
+.card__text--initial {
+    margin-bottom: 9px;
+}
+
+.card__text--last {
+    margin-bottom: 34px;
+}
+
+.card__link {
+    display: inline-block;
+    line-height: 21px;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.5s ease, background-color 0.5s ease;
+}
+
+.card__link--initial {
+    background-color: #ffbd54;
+    border-radius: 3px;
+    margin-right: 21px;
+    padding-top: 14px;
+    padding-right: 36px;
+    padding-bottom: 15px;
+    padding-left: 34px;
+}
+
+.card__link--initial:hover {
+    color: #ffbd54;
+    background-color: #333;
+}
+
+.card__link--initial:active {
+    opacity: 0.6;
+}
+
+.card__link--initial::before {
+    position: relative;
+    top: 5px;
+    width: 21px;
+    height: 21px;
+    content: "";
+    display: inline-block;
+    background-image: url("./images/link\ 1.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.card__link--last {
+    background-color: #333;
+    border-radius: 3px;
+    padding-top: 14px;
+    padding-right: 37px;
+    padding-bottom: 15px;
+    padding-left: 37px;
+}
+
+.card__link--last:hover {
+    color: #333;
+    background-color: #ffbd54;
+}
+
+.card__link--last:active {
+    opacity: 0.6;
+}
+
+.card__link--last::before {
+    position: relative;
+    top: 5px;
+    width: 21px;
+    height: 21px;
+    content: "";
+    display: inline-block;
+    background-image: url("./images/link\ 2.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+
+}
