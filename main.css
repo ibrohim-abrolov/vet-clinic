@@ -1100,6 +1100,18 @@ body {
     display: flex;
 }
 
+.footer__link-logo {
+    transition: opacity 0.5s ease;
+}
+
+.footer__link-logo:hover {
+    opacity: 0.8;
+}
+
+.footer__link-logo:active {
+    opacity: 0.6;
+}
+
 .footer__list {
     margin: 0;
     padding-left: 0;
