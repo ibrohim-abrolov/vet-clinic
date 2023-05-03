@@ -38,7 +38,7 @@ body {
     flex-direction: column;
     margin: 0;
     background-image: url("./images/bg.png");
-    background-color: #e5e5e5;
+    background-color: #f9f8f8;
     overflow-x: hidden;
 }
 
@@ -228,13 +228,12 @@ body {
     padding-bottom: 20.57px;
 }
 
-
 .site-logo {
     position: absolute;
     top: -21px;
     left: 7px;
     z-index: 3;
-    /*margin-right: 115.45px;*/
+    margin-right: 115.45px;
     transition: opacity 0.5s ease;
 }
 
@@ -283,17 +282,32 @@ body {
     line-height: 21px;
     color: #333333;
     text-decoration: none;
+    transition: border-bottom 0.3s ease;
 }
 
-.site-header__link--solo::before {
-    position: absolute;
-    top: 17px;
-    right: 147px;
+.nav__link:hover {
+    border-bottom: 4px solid green;
+}
+
+.nav__link:active {
+    opacity: 0.6;
+}
+
+.site-header__link {
+    display: inline-block;
+    line-height: 21px;
+    color: #333;
+    text-decoration: none;
+}
+
+.site-header__link::before {
+    position: relative;
+    top: 6px;
     width: 23px;
     height: 20.95px;
     content: "";
     display: inline-block;
-    background-image: url("./images/pet\ \(1\).svg");
+    background-image: url("./images/pet.svg");
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -538,7 +552,7 @@ body {
     height: 78px;
     content: "";
     display: inline-block;
-    background-image: url("./images/doctor\ 1\ \(1\).svg");
+    background-image: url("./images/doctorr.svg");
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -1051,6 +1065,7 @@ body {
     padding-top: 17px;
     padding-bottom: 86px;
     padding-left: 22px;
+    resize: none;
 }
 
 .location__button {
@@ -1069,4 +1084,152 @@ body {
 
 .location__button:active {
     opacity: 0.6;
+}
+
+
+    /*    Footer   */
+   
+.site-footer {
+    background-color: #f3f3f3;
+    border: 1px solid #ebebeb;
+    padding-top: 54px;
+    padding-bottom: 90px;
+}    
+
+.footer__wrapper {
+    display: flex;
+}
+
+.footer__list {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer__list--initial {
+    margin-right: 80px;
+}
+
+.footer__list--second {
+    margin-right: 120px;
+}
+
+.footer__list--third {
+    margin-right: 100px;
+}
+
+.footer__link-logo {
+    margin-right: 67px;
+}
+
+.footer__items--first {
+    margin-bottom: 14px;
+}
+
+.footer__items--second {
+    margin-bottom: 14px;
+}
+
+.footer__items--fourth {
+    margin-bottom: 16px;
+}
+
+.footer__items--fifth {
+    margin-bottom: 12px;
+}
+
+.footer__link {
+    display: inline-block;
+    line-height: 21px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.5s ease;
+}
+
+.footer__link:hover {
+    color: #ffbd54;
+}
+
+.footer__link:active {
+    color: #333;
+    opacity: 0.6;
+}
+
+.footer__date {
+    font-size: 14px;
+    line-height: 18px;
+    color: #333;
+    margin-bottom: 4px;
+    transition: color 0.5s ease;
+}
+
+.footer__date:hover {
+    color: #ffbd54;
+}
+
+.footer__date:active {
+    color: #333;
+    opacity: 0.6;
+}
+
+.footer__date--first::before {
+    position: absolute;
+    right: 690px;
+    width: 11.67px;
+    height: 8.17px;
+    content: "";
+    display: inline-block;
+    background-image: url("./images/schedule.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer__adress {
+    width: 157px;
+    font-style: normal;
+    line-height: 21px;
+    color: #333;
+    margin-right: 85px;
+    transition: color 0.5s ease;
+}
+
+.footer__adress:hover {
+    color: #ffbd54;
+}
+
+.footer__adress:active {
+    color: #333;
+    opacity: 0.6;
+}
+
+.footer__adress::before {
+    position: absolute;
+    right: 447px;
+    width: 16px;
+    height: 16px;
+    content: "";
+    display: inline-block;
+    background-image: url("./images/small\ house.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.footer__link--number {
+    margin-bottom: 4px;
+}
+
+.footer__link--number::before {
+    position: absolute;
+    right: 208px;
+    width: 16px;
+    height: 16px;
+    content: "";
+    display: inline-block;
+    background-image: url("./images/call.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.footer__link--phone {
+    margin-bottom: 4px;
 }
