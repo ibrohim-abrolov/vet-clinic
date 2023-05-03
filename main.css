@@ -285,7 +285,7 @@ body {
     text-decoration: none;
 }
 
-.nav__link--solo::before {
+.site-header__link--solo::before {
     position: absolute;
     top: 17px;
     right: 147px;
@@ -302,12 +302,11 @@ body {
    /*  Hero section  */
 
  .hero {
-    width: 400px, 319px;
-    height: 800px, 400px;
+    width: 100%;
     background-image: url("./images/animals-img.png"), url("./images/parrot-img.png");
     background-repeat: no-repeat;
-    background-size: contain, contain;
-    background-position: calc(50% + -540px) calc(50% + -180px), calc(50% + 868px) calc(50% + 265px);
+    background-size: contain, 250px;
+    background-position: calc(50% + -540px) calc(50% + -180px), calc(50% + 655px) calc(50% + 100px);
  }  
 
  .hero__textbox {
@@ -757,23 +756,19 @@ body {
         /*  Form  */
 
 .site-miniarticle {
-    width: 1444px;
+    height: 480px;
+    padding-top:90px ;
+    padding-bottom: 88px;
     background-image: url("./images/Brown\ dog.svg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: calc(50% + -25px) calc(50% + 15px);
-    /*padding-bottom: 316px;*/
 }
-
-
 
 .form__wrapper {
-    padding-top: 150px;
-    padding-bottom: 90px;
-    padding-left: 240px;
-    padding-right: 280px;
+   width: 600px;
+   margin-top: 90px;
+   margin-left: 200px;
 }
-
 
 .form__title {
     font-weight: 700;
@@ -791,13 +786,19 @@ body {
     background-color: #fff;
     border: 2px solid #fff;
     border-radius: 5px;
+    width: 335px;
     padding-top: 18px;
-    padding-right: 147px;
     padding-bottom: 12px;
     padding-left: 22px;
 }
 
+.form__wrapper-btn-input{
+    display: flex;
+    justify-content: space-between;
+}
+
 .form__button {
+    display: inline;
     background-color: #333;
     border-radius: 3px;
     line-height: 21px;
@@ -806,4 +807,157 @@ body {
     padding-right: 53px;
     padding-bottom: 14px;
     padding-left: 51px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.form__button:hover {
+    background-color: #ffbd54;
+    color: #333;
+}
+
+.form__button:active {
+    opacity: 0.6;
+}
+
+   /*   Advertisement  */
+
+.site-advertisement {
+    padding-top: 216px;
+}   
+
+.adv__heading {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 20px;
+    text-align: center;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 80px;
+}
+
+.adv__list {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.adv__items {
+    border: 1px solid #e4e4e2;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-right: 24px;
+}
+
+.adv__items--initial {
+    width: 305px;
+    height: 435px;
+}
+
+.adv__initial-wrapper {
+    padding-top: 41px;
+    padding-right: 31px;
+    padding-bottom: 36px;
+    padding-left: 22px;
+}
+
+.adv__items--middle {
+    width: 640px;
+    height: 435px;
+}
+
+.adv__mini-wrapper {
+    display: flex;
+}
+
+.adv__link-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 29px;
+}
+
+.adv__middle-main {
+    padding-top: 35px;
+    padding-right: 34px;
+    padding-bottom:  36px;
+    padding-left: 31px;
+}
+
+.adv__middle-link {
+    display: inline-block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #3d9cea;
+    text-decoration: none;
+    margin-right: 7px;
+}
+
+.adv__middle-link:last-child {
+    margin-right: 0;
+}
+
+.adv__date {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 18px;
+    color: #949494;
+    margin-left: 40px;
+}
+
+.adv__middle-wrapper {
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+}
+
+.adv__items--last {
+    width: 305px;
+    height: 435px;
+    margin-right: 0;
+}
+
+.adv__last-wrapper {
+    padding-top: 40px;
+    padding-right: 31px;
+    padding-bottom: 38px;
+    padding-left: 22px;
+}
+
+.adv__title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25px;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.adv__text {
+    font-weight: normal;
+    line-height: 20px;
+    color: #949494;
+    margin-top: 0;
+    margin-bottom: 33px;
+}
+
+.adv__link {
+    display: inline-block;
+    line-height: 21px;
+    color: #333;
+    text-decoration: none;
+}
+
+.adv__link::before {
+    position: relative;
+    right: 5px;
+    top: 5px;
+    width: 23px;
+    height: 21px;
+    content: "";
+    display: inline-block;
+    background-image: url("./images/pet\ \(1\).svg");
+    background-size: contain;
+    background-repeat: no-repeat
 }

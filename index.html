@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vet Clinic</title>
     <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./normalize.css">
 </head>
 <body>
     <header class="site-header">
@@ -83,7 +84,7 @@
                                     </li>
                                 </ul>
                                 </nav>
-                                <a class="nav__link nav__link--solo" href="#">
+                                <a class="site-header__link  site-header__link--solo" href="#">
                                 Задать вопрос
                                 </a>
                            </div>
@@ -190,18 +191,102 @@
         </section>
 
         <article class="site-miniarticle">
-            <form class="site-form form" action="https://htmlacademy.ru/" method="post">
-                <div class="container">
-                    <div class="form__wrapper">
+            <div class="container">
+                <form class="site-form form" action="https://htmlacademy.ru/" method="post">
+                <div class="form__wrapper">
                         <h2 class="form__title">
                             Будь в курсе событий
                         </h2>
-                        <input class="form__input" type="email" name="email" placeholder="Укажите Ваш email адрес" aria-label="enter your email">
-                        <button class="form__button" type="submit">Подписаться</button>
+                        <div class="form__wrapper-btn-input">
+                            <input class="form__input" type="email" name="email" placeholder="Укажите Ваш email адрес" aria-label="enter your email" required>
+                            <button class="form__button" type="submit">Подписаться</button>
+
+                        </div>
+                    </form>
                     </div>
-                </div>
-            </form>
+            </div>
         </article>
+
+        <section class="site-advertisement adv">
+            <div class="container">
+                <div class="adv__wrapper">
+                    <h2 class="adv__heading">
+                        Полезные статьи
+                    </h2>
+                    <ul class="adv__list">
+                        <li class="adv__items adv__items--initial">
+                            <img class="adv__img" src="./images/adv cat.png"
+                            width="305px"
+                            height="180px"
+                            alt="cat image">
+                           <div class="adv__initial-wrapper">
+                                <h3 class="adv__title">
+                                    Ультразвуковая чистка зубов
+                                </h3>
+                                <p class="adv__text">
+                                    Появление в доме котенка приятное и радосное событие. Но не всегда этот пушистый зверек берется от ...
+                                </p>
+                                <a class="adv__link" href="#" target="blank">
+                                    Читать больше
+                                </a>
+                           </div>
+                        </li>
+                        <li class="adv__items adv__items--middle">
+                            <div class="adv__mini-wrapper">
+                            <img src="./images/adv dogs.png"
+                            width="305px"
+                            height="435px"
+                            alt="image of two dogs">
+                                <div class="adv__middle-main">
+                                    <div class="adv__link-wrapper">
+                                        <a href="#" class="adv__middle-link" target="blank">
+                                            #собака
+                                        </a>
+                                        <a href="#" class="adv__middle-link" target="blank">
+                                            #дом
+                                        </a>
+                                        <a href="#" class="adv__middle-link" target="blank">
+                                            #уход
+                                        </a>
+                                        <time class="adv__date">
+                                            29.08.2020
+                                        </time>
+                                    </div>
+                                    <div class="adv__middle-wrapper">
+                                        <h3 class="adv__title">
+                                            Перед тем как завести собаку
+                                        </h3>
+                                        <p class="adv__text">
+                                            Появление в доме котенка приятное и радосное событие. Но не всегда этот пушистый зверек берется от заводчиков, Бивают и ситуации когда животное находят на улице и дают ему теплый дом. И первым вопросом, который возникает у новых хозяев – как определить возраст котенка. Появление в доме котенка приятное и радосное событие.
+                                        </p>
+                                        <a class="adv__link" href="#" target="blank">
+                                            Читать больше
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="adv__items adv__items--last">
+                            <img class="adv__img" src="./images/adv puupy.png"
+                            width="305px"
+                            height="180px"
+                            alt="puppy image">
+                            <div class="adv__last-wrapper">
+                                <h3 class="adv__title">
+                                    Когда привавать питомца?
+                                </h3>
+                                <p class="adv__text">
+                                    Появление в доме котенка приятное и радосное событие. Но не всегда этот пушистый зверек берется от ...
+                                </p>
+                                <a class="adv__link" href="#" target="_blank">
+                                    Читать больше
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
     </main>
     
 </body>
