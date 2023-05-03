@@ -823,6 +823,7 @@ body {
 
 .site-advertisement {
     padding-top: 216px;
+    padding-bottom: 265px;
 }   
 
 .adv__heading {
@@ -947,6 +948,16 @@ body {
     line-height: 21px;
     color: #333;
     text-decoration: none;
+    transition: color 0.5s ease;
+}
+
+.adv__link:hover {
+    color: #ffbd54;
+}
+
+.adv__link:active {
+    color: #333;
+    opacity: 0.6;
 }
 
 .adv__link::before {
@@ -960,4 +971,102 @@ body {
     background-image: url("./images/pet\ \(1\).svg");
     background-size: contain;
     background-repeat: no-repeat
+}
+
+   /*   LOcation and Iframe  */
+
+.site-location {
+    padding-bottom: 247px;
+}
+
+.location__wrapper {
+    display: flex;
+}
+
+.location__form {
+    width: 987px;
+    height: 624px;
+    background-image: url("./images/gold\ fish.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #333;
+    padding-top: 62px;
+    padding-right: 449px;
+    padding-bottom: 74px;
+    padding-left: 166px;
+}
+
+.location__inner {
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+}
+
+.location__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 14px;
+}
+
+.location__text {
+    font-weight: normal;
+    line-height: 20px;
+    color: #949494;
+    margin-top: 0;
+    margin-bottom: 29px;
+}
+
+.location__input {
+    font-weight: normal;
+    line-height: 21px;
+    color: #949494;
+    background-color: #fff;
+    border-radius: 0px;
+    margin-bottom: 14px;
+    padding-top: 16px;
+    padding-bottom: 13px;
+    padding-left: 22px;
+}
+
+.location__input-email {
+    font-weight: normal;
+    line-height: 21px;
+    color: #949494;
+    background-color: #fff;
+    margin-bottom: 14px;
+    padding-top: 16px;
+    padding-bottom: 13px;
+    padding-left: 22px;
+}
+
+.location__textarea {
+    font-weight: normal;
+    line-height: 21px;
+    color: #949494;
+    background-color: #fff;
+    margin-bottom: 30px;
+    padding-top: 17px;
+    padding-bottom: 86px;
+    padding-left: 22px;
+}
+
+.location__button {
+    width: 246px;
+    display: inline-block;
+    background-color: #ffbd54;
+    line-height: 21px;
+    color: #fff;
+    padding: 15px 35px;
+    transition: opacity 0.5s ease;
+}
+
+.location__button:hover {
+    opacity: 0.8;
+}
+
+.location__button:active {
+    opacity: 0.6;
 }
