@@ -1258,3 +1258,64 @@ body {
 .visually-hidden {
     visibility: hidden;
 }
+
+
+    /*    Intro section   */
+
+.intro {
+    background-image: url("./images/intro-dog.png");
+    background-position: calc(50% + 480px) calc(50% + 10px);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 118px;
+}    
+
+.intro__textbox {
+    width: 447px;
+    margin-bottom: 117px;
+}
+
+.intro__title {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 64px;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 27px;
+}
+
+.intro__text {
+    font-weight: normal;
+    line-height: 20px;
+    color: #949494;
+    margin: 0;
+}
+
+.intro__list {
+    display: flex;
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.intro__items {
+    display: flex;
+    flex-direction: column;
+    margin-right: 119px;
+}
+
+.intro__items--last {
+    margin-right: 0;
+}
+
+.intro__link {
+    display: inline-block;
+    line-height: 16px;
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.intro__location {
+    font-style: normal;
+}
