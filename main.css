@@ -282,11 +282,11 @@ body {
     line-height: 21px;
     color: #333333;
     text-decoration: none;
-    transition: border-bottom 0.3s ease;
+    transition: border-bottom 0.2s ease;
 }
 
 .nav__link:hover {
-    border-bottom: 4px solid green;
+    border-bottom: 4px solid #f4ffad;
 }
 
 .nav__link:active {
@@ -298,6 +298,15 @@ body {
     line-height: 21px;
     color: #333;
     text-decoration: none;
+    transition: border-bottom 0.2s ease;
+}
+
+.site-header__link:hover {
+    border-bottom: 4px solid #f4ffad;
+}
+
+.site-header__link:active {
+    opacity: 0.6;
 }
 
 .site-header__link::before {
@@ -320,7 +329,7 @@ body {
     background-image: url("./images/animals-img.png"), url("./images/parrot-img.png");
     background-repeat: no-repeat;
     background-size: contain, 250px;
-    background-position: calc(50% + -540px) calc(50% + -180px), calc(50% + 655px) calc(50% + 100px);
+    background-position: calc(50% + -480px) calc(50% + -180px), calc(50% + 655px) calc(50% + 156px);
  }  
 
  .hero__textbox {
@@ -392,7 +401,7 @@ body {
     height: 1px;
     content: "";
     display: inline-block;
-    background-image: url("./images/Line\ 3\ \(1\).svg");
+    background-image: url("./images/Line.svg");
     background-repeat: no-repeat;
 }
 
@@ -404,7 +413,7 @@ body {
     height: 1px;
     content: "";
     display: inline-block;
-    background-image: url("./images/Line\ 3\ \(1\).svg");
+    background-image: url("./images/Line.svg");
     background-repeat: no-repeat;
 }
 
@@ -489,7 +498,7 @@ body {
     height: 26px;
     content: "";
     display: inline-block;
-    background-image: url("./images/arrow\ \(1\).svg");
+    background-image: url("./images/arrow1.svg");
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -502,7 +511,7 @@ body {
     height: 26px;
     content: "";
     display: inline-block;
-    background-image: url("./images/arrow\ 2.svg");
+    background-image: url("./images/arrow2.svg");
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -732,7 +741,7 @@ body {
     height: 21px;
     content: "";
     display: inline-block;
-    background-image: url("./images/link\ 1.svg");
+    background-image: url("./images/linkfirst.svg");
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -762,7 +771,7 @@ body {
     height: 21px;
     content: "";
     display: inline-block;
-    background-image: url("./images/link\ 2.svg");
+    background-image: url("./images/linksecond.svg");
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -982,7 +991,7 @@ body {
     height: 21px;
     content: "";
     display: inline-block;
-    background-image: url("./images/pet\ \(1\).svg");
+    background-image: url("./images/pet.svg");
     background-size: contain;
     background-repeat: no-repeat
 }
@@ -1244,4 +1253,8 @@ body {
 
 .footer__link--phone {
     margin-bottom: 4px;
+}
+
+.visually-hidden {
+    visibility: hidden;
 }
