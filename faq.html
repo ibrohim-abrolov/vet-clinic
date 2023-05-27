@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <titl>Third page</title>
+    <title>Third page</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./normalize.css">
 </head>
 <body>
+    <!--   Header section   -->
     <header class="site-header">
         <div class="container">
             <address class="site-adress">
@@ -91,12 +94,156 @@
     </header>
 
     <main class="site-main">
+        <!--   Hero section   -->
         <section class="faq-hero">
             <div class="container">
-                
+                <div class="faq-hero__wrapper">
+                    <div class="faq-hero__textbox">
+                        <h1 class="faq-hero__heading">
+                            FAQ
+                        </h1>
+                        <p class="faq-hero__paragraph">
+                            Узнать информацию о наших услугах, записаться на прием к врачу или проконсультироваться вы можете по телефону, в любое удобное для вас время.
+                        </p>
+                        <a href="#" class="faq-hero__link">
+                            Задать вопрос
+                        </a>
+                    </div>
+                    <h2 class="visually-hidden">
+                        Faq cards
+                    </h2>
+                    <ul class="faq-hero__list">
+                        <li class="faq-hero__items faq-hero__items--initial">
+                            <time class="faq-hero__time" datetime="01092020">
+                                01.09.2020
+                            </time>
+                            <span class="faq-hero__span">
+                                Пономаренко Наталия
+                            </span>
+                            <div class="faq-hero__inner-textbox">
+                                <h3 class="faq-hero__title faq-hero__title--initial">
+                                    Как часто следует проводить обработки от блох и клещей?
+                                </h3>
+                                <p class="faq-hero__text">
+                                    Самые качественные капли от блох и клещей как правило действуют не более одного месяца. Поэтому собак и кошек следует обрабатывать от блох именно с такой периодичностью. Обработки противопаразитарными каплями особенно актуальны для собак в период с марта по декабрь, когда активизируют свою активность клещи. Подобрать препарат от блох и клещей Вам помогут в ветеринарном комплексе “Передовой”. Также здесь Вам помогут в расчёте дозировки этих препаратов.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="faq-hero__items faq-hero__items--middle">
+                            <time class="faq-hero__time" datetime="01092020">
+                                01.09.2020
+                            </time>
+                            <span class="faq-hero__span">
+                                Пономаренко Наталия
+                            </span>
+                            <h3 class="faq-hero__title faq-hero__title--middle">
+                                Может ли кошка или собака никогда не выходящая из дома подхватить блох?
+                            </h3>
+                        </li>
+                        <li class="faq-hero__items faq-hero__items--middle">
+                            <time class="faq-hero__time" datetime="31082020"> 
+                                31.08.2020
+                            </time>
+                            <span class="faq-hero__span">
+                                Пономаренко Наталия
+                            </span>
+                            <h3 class="faq-hero__title faq-hero__title--middle">
+                                Чем очищать глаза собаке или кошке?
+                            </h3>
+                        </li>
+                        <li class="faq-hero__items faq-hero__items--last">
+                            <time class="faq-hero__time" datetime="31082020"> 
+                                31.08.2020
+                            </time>
+                            <span class="faq-hero__span">
+                                Пономаренко Наталия
+                            </span>
+                            <h3 class="faq-hero__title faq-hero__title--middle">
+                                Чем лучше кормить – натуральным или готовым кормом?
+                            </h3>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </section>
     </main>
+
+     <!--   Footer section   -->
+     <footer class="site-footer footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <a class="footer__link-logo" href="#">
+                    <img class="footer__logo" src="./images/logo.svg" alt="site-logo" width="158" height="76">
+                </a>
+                <ul class="footer__list footer__list--initial">
+                    <li class="footer__items footer__items--first">
+                        <a class="footer__link" href="./index.html">
+                            Главная
+                        </a>
+                    </li>
+                    <li class="footer__items footer__items--second">
+                        <a class="footer__link" href="#">
+                            О Клинике
+                        </a>
+                    </li>
+                    <li class="footer__items footer__items--third">
+                        <a class="footer__link" href="#">
+                            Наши Услуги
+                        </a>
+                    </li>
+                </ul>
+                <ul class="footer__list footer__list--second">
+                    <li class="footer__items footer__items--fourth">
+                        <a class="footer__link" href="./contacts.html">
+                            Контакты
+                        </a>
+                    </li>
+                    <li class="footer__items footer__items--fifth">
+                        <a class="footer__link" href="./faq.html">
+                            FAQ
+                        </a>
+                    </li>
+                    <li class="footer__items">
+                        <a class="footer__link" href="#">
+                            Полезные Статьи
+                        </a>
+                    </li>
+                </ul>
+                <ul class="footer__list footer__list--third">
+                    <li class="footer__items">
+                        <time class="footer__date footer__date--first">
+                            <strong>Пн - Пт</strong> 8:00 - 18:00
+                        </time>
+                    </li>
+                    <li class="footer__items">
+                        <time class="footer__date">
+                            <strong>Сб - Вс</strong> 8:00 - 14:00
+                        </time>
+                    </li>
+                </ul>
+                <address class="footer__adress">
+                    г. Мариуполь, проспект Победы, 48а
+                </address>
+                <ul class="footer__list footer__list--last">
+                    <li class="footer__items">
+                        <a class="footer__link footer__link--number" href="tel:0982664389">
+                            (098) 266 - 43 - 89
+                        </a>
+                    </li>
+                    <li class="footer__items">
+                        <a class="footer__link footer__link--phone" href="tel:0637570131">
+                            (0637) 57 - 01 - 31
+                        </a>
+                    </li>
+                    <li class="footer__items">
+                        <a class="footer__link" href="tel:0676347574">
+                            (067) 634 -75 - 74
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+     </footer> 
     
 </body>
 </html>
