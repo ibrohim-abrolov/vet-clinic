@@ -61,15 +61,12 @@ body {
     flex-grow: 1;
 }
 
-   /*   Header section   */
-
+                   /*   Header section   */
 .site-header {
     padding-top: 13px;
 }
 
-    /*  Site-adress Inner  */
-
-
+              /*  Site-adress Inner  */
 .site-adress {
     display: flex;
     padding-bottom: 13px;
@@ -1105,8 +1102,7 @@ body {
 }
 
 
-    /*    Footer   */
-   
+                /*    Footer   */
 .site-footer {
     background-color: #f3f3f3;
     border: 1px solid #ebebeb;
@@ -1234,7 +1230,7 @@ body {
 
 .footer__adress::before {
     position: absolute;
-    right: 447px;
+    right: 456px;
     width: 16px;
     height: 16px;
     content: "";
@@ -1270,12 +1266,12 @@ body {
 }
 
 
-    /*    Intro section   */
-
+         /*    Intro section   */
 .intro {
     padding-top: 118px;
+    padding-bottom: 50px;
     background-image: url("./images/intro-dog.png");
-    background-position: calc(50% + 470px) calc(50% + -4px);
+    background-position: calc(50% + 470px) calc(50% + -32px);
     background-repeat: no-repeat;
     background-size: 487px 548px;
 }    
@@ -1369,18 +1365,19 @@ body {
 
 
                              /*    Contacts-article   */
-.contacts-article {
+.contacts-article__wrapper {
+    position: relative;
+    z-index: 100;
+    top: 190px;
     width: 1300px;
     height: 500px;
-    padding-top: 395px;
     background-image: url("./images/section-group.svg");
     background-repeat: no-repeat;
-    background-size: 1300px 400px;
-    background-position:calc(50% + -1px) calc(50% + 50px);
 }
 
 .contacts-article__title {
-    margin: 0;
+    margin-top: 225px;
+    margin-bottom: 0;
     font-size: 48px;
     line-height: 62px;
     font-weight: 700;
@@ -1401,7 +1398,6 @@ body {
     display: flex;
     align-items: center;
 }
-
 
 
             /*    Faq page and hero    */
@@ -1444,6 +1440,15 @@ body {
     background-color: #78c0de;
     border-radius: 3px;
     text-decoration: none;
+    transition: color 0.5s ease, background-color 0.5s ease;
+}
+
+.faq-hero__link:hover {
+    opacity: 0.8;
+}
+
+.faq-hero__link:active {
+    opacity: 0.6;
 }
 
 .faq-hero__link::before {
