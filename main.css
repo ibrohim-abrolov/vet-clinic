@@ -1632,6 +1632,8 @@ body {
 }
 
 .services-hero__items {
+    position: relative;
+    z-index: 1;
     margin-right: 30px;
     margin-bottom: 34px;
     padding: 58px 22px 45px 53px;
@@ -1649,6 +1651,162 @@ body {
 
 .services-hero__items:last-child {
     margin-right: 0;
+}
+
+.services-hero__items--initial::after {
+    position: absolute;
+    top: 20px;
+    left: 175px;
+    display: block;
+    content: "";
+    width: 107px;
+    height: 94px;
+    background-image: url("./images/servicesheropet.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.services-hero__items--second::after {
+    position: absolute;
+    top: 20px;
+    left: 195px;
+    display: block;
+    content: "";
+    width: 107px;
+    height: 94px;
+    background-image: url("./images/servicesheropet.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.services-hero__items--third::after {
+    position: absolute;
+    top: 20px;
+    left: 195px;
+    display: block;
+    content: "";
+    width: 107px;
+    height: 94px;
+    background-image: url("./images/servicesheropet.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.services-hero__items--fourth::after {
+    position: absolute;
+    top: 20px;
+    left: 195px;
+    display: block;
+    content: "";
+    width: 107px;
+    height: 94px;
+    background-image: url("./images/servicesheropet.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.services-hero__items--fifth::after {
+    position: absolute;
+    top: 20px;
+    left: 195px;
+    display: block;
+    content: "";
+    width: 107px;
+    height: 94px;
+    background-image: url("./images/servicesheropet.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.services-hero__items--sixth::after {
+    position: absolute;
+    top: 20px;
+    left: 195px;
+    display: block;
+    content: "";
+    width: 107px;
+    height: 94px;
+    background-image: url("./images/servicesheropet.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.services-hero__items--seventh::after {
+    position: absolute;
+    top: 20px;
+    left: 195px;
+    display: block;
+    content: "";
+    width: 107px;
+    height: 94px;
+    background-image: url("./images/servicesheropet.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.services-hero__items--eighth::after {
+    position: absolute;
+    top: 20px;
+    left: 195px;
+    display: block;
+    content: "";
+    width: 107px;
+    height: 94px;
+    background-image: url("./images/servicesheropet.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.services-hero__items--nineth::after {
+    position: absolute;
+    top: 20px;
+    left: 195px;
+    display: block;
+    content: "";
+    width: 107px;
+    height: 94px;
+    background-image: url("./images/servicesheropet.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.services-hero__items--tenth::after {
+    position: absolute;
+    top: 20px;
+    left: 195px;
+    display: block;
+    content: "";
+    width: 107px;
+    height: 94px;
+    background-image: url("./images/servicesheropet.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.services-hero__items--eleventh::after {
+    position: absolute;
+    top: 20px;
+    left: 195px;
+    display: block;
+    content: "";
+    width: 107px;
+    height: 94px;
+    background-image: url("./images/servicesheropet.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.services-hero__items--last::after {
+    position: absolute;
+    top: 20px;
+    left: 195px;
+    display: block;
+    content: "";
+    width: 107px;
+    height: 94px;
+    background-image: url("./images/servicesheropet.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .services-hero__inner-textbox {
