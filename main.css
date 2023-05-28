@@ -1587,3 +1587,114 @@ body {
     line-height: 20px;
     color: #949494;
 }
+
+                  /*   Services page and hero   */
+.services-hero {
+    padding-top: 120px;
+    padding-bottom: 126px;
+}
+
+.services-hero__wrapper {
+    background-image: url("./images/servicesbgimg.png");
+    background-position: calc(50% + 424px) calc(50% + -700px);
+    background-repeat: no-repeat;
+    background-size: 435px;
+}
+
+.services-hero__textbox {
+    max-width: 431px;
+    width: 100%;
+    margin-bottom: 140px;
+    transform: translateX(125px);
+}
+
+.services-hero__heading {
+    margin-top: 0;
+    margin-bottom: 21px;
+    font-size: 70px;
+    line-height: 64px;
+    font-weight: 700;
+    color: var(--main-text-color);
+}
+
+.services-hero__paragraph {
+    margin: 0;
+    line-height: 20px;
+    color: #949494;
+}
+
+.services-hero__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.services-hero__items {
+    margin-right: 30px;
+    margin-bottom: 34px;
+    padding: 58px 22px 45px 53px;
+    background-color: #fff;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.services-hero__items:nth-child(4) {
+    margin-right: 0;
+}
+
+.services-hero__items:nth-child(8) {
+    margin-right: 0;
+}
+
+.services-hero__items:last-child {
+    margin-right: 0;
+}
+
+.services-hero__inner-textbox {
+    max-width: 230px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.services-hero__img {
+   display: block;
+}
+
+.services-hero__title {
+    margin-top: 22px;
+    margin-bottom: 14px;
+    font-size: 32px;
+    line-height: 34px;
+    font-weight: 600;
+    color: var(--main-text-color);
+}
+
+.services-hero__text {
+    margin-top: 0;
+    margin-bottom: 26px;
+    line-height: 20px;
+    color: #949494;
+}
+
+.services-hero__link {
+    display: inline-block;
+    padding: 15px 30px;
+    line-height: 21px;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    background-color: #ffbd54;
+    border-radius: 3px;
+    text-decoration-line: none;
+    transition: color 0.5s ease, background-color 0.5s ease;
+}
+
+.services-hero__link:hover {
+    color: #ffbd54;
+    background-color: var(--main-text-color);
+}
+
+.services-hero__link:active {
+    opacity: 0.6;
+}
