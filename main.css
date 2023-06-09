@@ -33,6 +33,7 @@
 
 img {
     display: block;
+    height: auto;
 }
 
 html {
@@ -40,11 +41,11 @@ html {
 }
 
 body {
-    height: 100%;
-    font-family: "Futura PT",sans-serif;
     display: flex;
     flex-direction: column;
+    height: 100%;
     margin: 0;
+    font-family: "Futura PT", sans-serif;
     background-image: url("./images/bg.png");
     background-color: #f9f8f8;
     overflow-x: hidden;
@@ -1856,3 +1857,225 @@ body {
 .services-hero__link:active {
     opacity: 0.6;
 }
+
+
+
+              /*     Check page    */
+
+.check-hero {
+    padding-bottom: 174px;
+}
+
+.check-hero__wrapper {
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 42px;
+}
+
+.check-hero__inner {
+    margin-right: 143px;
+    padding-left: 224px;
+}
+
+.check-hero__mini-list {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 33px;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.check-hero__mini-items:not(:last-child) {
+    margin-right: 18px;
+}
+
+.check-hero__link {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--main-text-color);
+    text-decoration-line: none;
+    opacity: 0.6;
+    transition: color 0.5s ease;
+}
+
+.check-hero__link:hover {
+    opacity: 1;
+}
+
+.check-hero__textbox {
+    max-width: 640px;
+    width: 100%;
+}
+
+.check-hero__heading {
+    margin-top: 0;
+    margin-bottom: 28px;
+    font-size: 70px;
+    line-height: 64px;
+    font-weight: 700;
+    color: var(--main-text-color);
+}
+
+.check-hero__bold {
+    font-size: 70px;
+    line-height: 64px;
+    color: #ffbd54;
+}
+
+.check-hero__text {
+    margin-top: 0;
+    line-height: 20px;
+    color: #949494;
+}
+
+.check-hero__text:not(:last-child) {
+    margin-bottom: 22px;
+}
+
+.check-hero__link-wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 64px;
+}
+
+.check-hero__mini-link {
+    display: inline-block;
+    line-height: 21px;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.5s ease, background-color 0.5s ease;
+}
+
+.check-hero__mini-link--first {
+    background-color: #ffbd54;
+    border-radius: 3px;
+    margin-right: 21px;
+    padding-top: 14px;
+    padding-right: 36px;
+    padding-bottom: 15px;
+    padding-left: 34px;
+}
+
+.check-hero__mini-link--first:hover {
+    color: #ffbd54;
+    background-color: #333;
+}
+
+.check-hero__mini-link--first:active {
+    opacity: 0.6;
+}
+
+.check-hero__mini-link--first::before {
+    position: relative;
+    top: 5px;
+    width: 21px;
+    height: 21px;
+    content: "";
+    display: inline-block;
+    background-image: url("./images/linkfirst.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.check-hero__mini-link--last {
+    background-color: #333;
+    border-radius: 3px;
+    padding-top: 14px;
+    padding-right: 37px;
+    padding-bottom: 15px;
+    padding-left: 37px;
+}
+
+.check-hero__mini-link--last:hover {
+    color: #333;
+    background-color: #ffbd54;
+}
+
+.card__link--last:active {
+    opacity: 0.6;
+}
+
+.card__link--last::before {
+    position: relative;
+    top: 5px;
+    width: 21px;
+    height: 21px;
+    content: "";
+    display: inline-block;
+    background-image: url("./images/linksecond.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+      /*   hero inner   */
+
+.check-hero__list {
+    margin: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.check-hero__items {
+    border: 1px solid #e4e4e2;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.check-hero__items:not(:last-child) {
+    margin-bottom: 11px;
+}
+
+.check-hero__card-wrapper {
+    padding: 40px 31px;
+}
+
+.check-hero__items-textbox {
+    max-width: 244px;
+    width: 100%;
+}
+
+.check-hero__title {
+    margin-top: 0;
+    margin-bottom: 13px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25px;
+    color: #000;
+}
+
+.check-hero__mini-text {
+    margin-top: 0;
+    margin-bottom: 28px;
+    line-height: 20px;
+    color: #949494;
+}
+
+.check-hero__inner-link {
+    display: inline-block;
+    line-height: 21px;
+    font-weight: var(--main-font-weight);
+    text-decoration-line: none;
+    color: var(--main-text-color);
+    transition: color 0.5s ease;
+}
+
+.check-hero__inner-link:hover {
+    color: #ffbd54;
+}
+
+.check-hero__inner-link::before {
+    position: relative;
+    right: 5px;
+    top: 5px;
+    width: 23px;
+    height: 21px;
+    content: "";
+    display: inline-block;
+    background-image: url(./images/pet.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
