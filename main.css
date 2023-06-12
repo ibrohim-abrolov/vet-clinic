@@ -1861,9 +1861,12 @@ body {
 
 
               /*     Check page    */
-
 .check-hero {
     padding-bottom: 174px;
+}
+
+.check-hero__main-img {
+    margin: 0 auto;
 }
 
 .check-hero__wrapper {
@@ -2077,5 +2080,95 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
 }
+ 
+                /*   Article section   */
+.check-article {
+    position: relative;
+    z-index: 100;
+    padding-top: 64px;
+    padding-bottom: 300px;
+    padding-left: 111px;
+    background-image: url("./images/check-form-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
+.check-article__textbox {
+    max-width: 276px;
+    width: 100%;
+}
 
+.check-article__title {
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 56px;
+    line-height: 62px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.check-article__text {
+    margin: 0;
+    font-size: 26px;
+    line-height: 30px;
+    font-weight: var(--main-font-weight);
+    color: #fff;
+}
+
+.check-article__form {
+    padding-top: 100px;
+}
+
+.check-article__wrapper {
+    display: flex;
+}
+
+.check-article__form {
+    margin-left: 61px;
+}
+
+.check-article__input-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.check-article__input {
+    max-width: 370px;
+    width: 100%;
+    margin-bottom: 14px;
+    padding: 16px 150px 13px 22px;
+    line-height: 21px;
+    color: #949494;
+    background-color: #fff;
+    border: none;
+}
+
+.check-article__input:last-child {
+    margin-bottom: 14px;
+    padding-right: 148px;
+}
+
+.check-article__area {
+    max-width: 370px;
+    width: 100%;
+    margin-bottom: 26px;
+    line-height: 21px;
+    color: #949494;
+    background-color: #fff;
+    border: none
+}
+
+.check-article__btn {
+    padding: 15px 50px;
+    line-height: 21px;
+    font-weight: var(--main-font-weight);
+    color: #fff;
+    background-color: #000;
+    border: none;
+    transition: color 0.5s ease, background-color 0.5s ease;
+}
+
+.check-article__btn:hover {
+    background-color: #ffbd54;
+    color: #000;
+}
