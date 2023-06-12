@@ -2172,3 +2172,33 @@ body {
     background-color: #ffbd54;
     color: #000;
 }
+
+                 /*   Sixth page and articles hero   */
+.articles-hero {
+    padding-top: 118px;
+    padding-bottom: 41px;
+    background-image: url("./images/articles-hero-bg.png");
+    background-position: calc(50% + 270px) calc(50% + 43px);
+    background-size: 415px 317px;
+    background-repeat: no-repeat;
+}
+
+.articles-hero__textbox {
+    max-width: 560px;
+    width: 100%;
+}
+
+.articles-hero__title {
+    margin-top: 0;
+    margin-bottom: 21px;
+    font-size: 70px;
+    line-height: 64px;
+    font-weight: 700;
+    color: var(--main-text-color);
+}
+
+.articles-hero__text {
+    margin: 0;
+    line-height: 20px;
+    color: #949494;
+}
