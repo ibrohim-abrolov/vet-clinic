@@ -2413,3 +2413,88 @@ body {
     background-color: #ffbd54;
     color: #000;
 }
+
+
+                /*   Last page and hero   */
+.clinic-hero {
+    background-image: url("./images/clinic-bg-fem.png"), url("./images/clinic-hero.svg");
+    background-repeat: no-repeat;
+    background-size: 448px 545px, 669px 236px;
+    background-position: calc(50% + 400px) calc(50% + -450px), calc(50% + -326px) calc(50% + -310px);
+}
+
+.clinic-hero__textbox {
+    max-width: 411px;
+    width: 100%;
+    padding-top: 177px;
+    padding-bottom: 300px;
+}
+
+.clinic-hero__title {
+    margin-top: 0;
+    margin-bottom: 22px;
+    font-size: 70px;
+    line-height: 64px;
+    font-weight: 700;
+    color: var(--main-text-color);
+}
+
+.clinic-hero__paragraph {
+    margin: 0;
+    line-height: 20px;
+    color: #949494;
+}
+
+.clinic-hero__list {
+    margin: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.clinic-hero__items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.clinic-hero__items:first-child {
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid #f3f3f3;
+    border-radius: 5px;
+}
+
+.clinic-hero__items:last-child {
+    flex-direction: row-reverse;
+}
+
+.clinic-hero__text-wrapper {
+    max-width: 557px;
+    width: 100%;
+}
+
+.clinic-hero__mini-text {
+    margin: 0;
+    font-size: 20px;
+    line-height: 26px;
+    color: #949494;
+}
+
+.clinic-hero__mini {
+    color: #ffbd54;
+}
+
+.clinic-hero__inner-textbox {
+    max-width: 494px;
+    width: 100%;
+}
+
+.clinic-hero__text {
+    margin: 0;
+    line-height: 20px;
+    color: #949494;
+}
+
+.clinic-hero__text:first-child {
+    margin-bottom: 19px;
+}
