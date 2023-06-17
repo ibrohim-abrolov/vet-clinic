@@ -45,7 +45,8 @@ body {
     flex-direction: column;
     height: 100%;
     margin: 0;
-    font-family: "Futura PT", sans-serif;
+    padding: 0;
+    font-family: "Futura PT", "Arial", sans-serif;
     background-image: url("./images/bg.png");
     background-color: #f9f8f8;
     overflow-x: hidden;
@@ -2497,4 +2498,61 @@ body {
 
 .clinic-hero__text:first-child {
     margin-bottom: 19px;
+}
+
+                          /*    Clinic-service section   */
+.clinic-service {
+    padding-top: 30px;
+    padding-bottom: 145px;
+}                         
+
+.clinic-service__wrapper {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+
+.clinic-service__textbox {
+    max-width: 416px;
+    width: 100%;
+}
+
+.clinic-service__textbox::after {
+    position: absolute;
+    top: 650px;
+    left: 200px;
+    display: block;
+    content: "";
+    width: 37px;
+    height: 42px;
+    background-image: url("./images/clinic-numbers.svg");
+    background-repeat: no-repeat;
+}
+
+.clinic-service__title {
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-size: 42px;
+    line-height: 48px;
+    font-weight: 700;
+    color: var(--main-text-color);
+}
+
+.clinic-service__bold {
+    color: #ffbd54;
+}
+
+.clinic-service__text {
+    margin: 0;
+    line-height: 20px;
+    color: #949494;
+}
+
+.clinic-service__list {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding-left: 0;
+    list-style-type: none;
 }
